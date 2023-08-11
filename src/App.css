@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(25, 26, 25);
+  height: 100vh;
+}
+
+.App {
+  background-color: rgb(25, 26, 25);
+  height: 100vh;
+}
+
+.spinner {
+  margin: auto;
+  color: white;
+}
+
+.favIcon {
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  margin: 30px auto 5px;
+  transition: 0.2s ease-in-out;
+}
+
+#favTitle {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto 50px;
+}
+
+.favIcon:hover {
+  transform: scale(1.2);
+
+  #favTitle {
+    transform: rotate(45deg);
+  }
+}

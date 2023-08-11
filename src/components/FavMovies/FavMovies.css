@@ -1,0 +1,13 @@
+.err {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(203, 201, 201, 0.568);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
