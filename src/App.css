@@ -12,10 +12,8 @@ html {
   height: 100vh;
 }
 
-.spinner {
-  margin: auto;
-  color: white;
-}
+
+
 
 .favIcon {
   color: white;
@@ -40,3 +38,5 @@ html {
     transform: rotate(45deg);
   }
 }
+
+

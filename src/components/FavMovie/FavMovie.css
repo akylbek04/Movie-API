@@ -50,4 +50,5 @@
 
 .trash:hover{
     color: rgba(229, 228, 228, 0.63);
+    cursor: pointer;
 }

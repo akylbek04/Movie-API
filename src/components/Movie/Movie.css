@@ -1,10 +1,4 @@
-.movie-card {
-  width: 19%;
-  display: inline-block;
-  color: aliceblue;
-  position: relative;
-  margin-bottom: 10px;
-}
+
 
 .movie-card img {
   height: 40vh;
@@ -39,6 +33,7 @@
 
 .heart:hover {
   color: red;
+  cursor: pointer;
 }
 
 .heart-active{
